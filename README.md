@@ -1,6 +1,6 @@
 ### Descrição
 
-Este projeto é um aplicativo de previsão do tempo construído com React e a API OpenWeather. Permite que os usuários insiram o nome de uma cidade para obter dados meteorológicos, incluindo uma previsão de 5 dias e as condições climáticas atuais. A interface amigável facilita a pesquisa e exibição das informações climáticas em qualquer cidade do mundo.
+Este projeto é um aplicativo de previsão do tempo construído usando React e a API OpenWeather. Os usuários podem inserir o nome de uma cidade para receber dados meteorológicos, incluindo uma previsão de 5 dias e as condições climáticas atuais. O aplicativo oferece uma interface amigável para pesquisar e exibir informações meteorológicas, tornando fácil acompanhar o clima em qualquer cidade do mundo.
 
 ### README
 
