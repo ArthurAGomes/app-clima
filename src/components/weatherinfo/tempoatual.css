@@ -1,0 +1,35 @@
+.containerweather {
+    background-color: rgba(195, 187, 187, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0
+}
+
+h2 {
+    font-size: 1.6em
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        width: 4em;
+    }
+}
+
+.temp {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.descricption {
+    text-transform: capitalize;
+    font-size: 1.1em;
+}
+
+.details {
+    display: flex;
+    justify-content: space-evenly;
+}
