@@ -7,7 +7,8 @@
 
 h1{
     font-size: 3rem;
-    color: #FFf;
+    color: #0D171C;
+    font-weight: 400;
 }
 
 .pesquisar{
@@ -19,17 +20,25 @@ input{
     border: none;
     border-radius: 20px 0 0 20px;
     width: 60%;
-    padding: 10px;
+    padding: 12px;
     max-width: 300px;
     outline: none;
+    background-color:#4f82963f ;
+}
+
+input::placeholder{
+    color: #4F8296;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-indent: 5px;
 }
 
 button{
     border: none;
-    padding: 10px;
-    background-color: orange;
+    padding: 12px;
+    background-color:#4F8296;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 300;
     border-radius: 0px 20px 20px 0;
     color: #FFf;
     
