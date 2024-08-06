@@ -1,5 +1,5 @@
 .containerweather {
-    background-color: rgba(195, 187, 187, 0.8);
+    /* background-color: rgba(195, 187, 187, 0.8); */
     border-radius: 10px;
     padding: 10px;
     margin: 20px 0;
@@ -12,12 +12,15 @@
 }
 
 .weather-day {
-    background-color: rgba(195, 187, 187, 0.8);
     border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #ffffff;
     padding: 10px;
     margin: 10px;
-    width: 200px; 
-    text-align: center; 
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center;  */
 }
 
 .weather-day h3 {
@@ -35,9 +38,9 @@
     margin: 5px 0;
 }
 
-.weather-day .description {
+.weather-day p {
     text-transform: capitalize;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
     margin: 5px 0;
 }
 
@@ -46,3 +49,14 @@
     justify-content: space-between;
     font-size: 0.9em;
 }
+
+.diasSemana{
+    display: flex;
+}
+
+.info-days{
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+
